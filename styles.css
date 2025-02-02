@@ -7,7 +7,7 @@ body {
   color: #fff;
 }
 
-/* 🔵 Header & Navbar */
+
 header {
   display: flex;
   justify-content: space-between;
@@ -49,9 +49,9 @@ nav ul li a {
   font-size: 1.2em;
 }
 
-/* 🌟 Section Layout */
+
 .section {
-  /* min-height: 100vh; */
+ 
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -70,7 +70,7 @@ nav ul li a {
   overflow: hidden;
 }
 
-/* Image Slider Styling */
+
 .image-slider {
   position: absolute;
   top: 0;
@@ -90,7 +90,7 @@ nav ul li a {
   transition: opacity 1s ease-in-out;
 }
 
-/* Make sure the first image is visible */
+
 .slider-image:nth-child(1) {
   opacity: 1;
 }
@@ -112,7 +112,7 @@ nav ul li a {
   padding: 20px;
 }
 
-/* Heading Styling */
+
 .background-overlay h1 {
   font-size: 3em;
   font-weight: bold;
@@ -120,14 +120,14 @@ nav ul li a {
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
 }
 
-/* Paragraph Styling */
+
 .background-overlay p {
   font-size: 1.3em;
   margin-bottom: 30px;
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6);
 }
 
-/* Button Styling */
+
 .cta-button {
   background: #ff9800;
   color: white;
@@ -147,7 +147,7 @@ nav ul li a {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
 }
 
-/* 🕰️ Timeline Section */
+
 .section h2 {
   font-size: 2.5em;
   color: #ffffff;
@@ -212,7 +212,7 @@ nav ul li a {
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
 }
 
-/* Background Images for Each Circle */
+
 #circle1 {
   background-image: url("path-to-image1.jpg");
 }
@@ -232,7 +232,7 @@ nav ul li a {
   }
 }
 
-/* Timeline Detail Sections */
+
 .timeline-details {
   margin-top: 40px;
 }
@@ -258,7 +258,7 @@ nav ul li a {
   margin: 0 auto;
 }
 
-/* 📊 General Graph Container Styles */
+
 .graph-section {
   margin: 40px 0;
   text-align: center;
@@ -293,7 +293,7 @@ nav ul li a {
   color: #ffffff;
 }
 
-/* Optional: Add colors for each graph to differentiate them */
+
 #economy .bar {
   background-color: #ff6347;
 }
@@ -306,7 +306,7 @@ nav ul li a {
   background-color: #4682b4;
 }
 
-/* Farming Section Styles */
+
 .farming-container {
   display: flex;
   flex-direction: row;
@@ -318,7 +318,7 @@ nav ul li a {
 }
 
 .farming-images {
-  flex: 1; /* Takes up equal width for images */
+  flex: 1; 
   display: flex;
   flex-direction: row;
   gap: 20px;
@@ -388,7 +388,7 @@ nav ul li a {
   }
 }
 
-/* Space Vision Section Styles */
+
 .space-vision-container {
   display: flex;
   flex-direction: row;
@@ -461,7 +461,7 @@ nav ul li a {
   }
 }
 
-/* Future Vision Section Styles */
+
 .future-vision-container {
   display: flex;
   flex-direction: row;
@@ -534,7 +534,7 @@ nav ul li a {
   }
 }
 
-/* About Section Styles */
+
 .about-container {
   display: flex;
   flex-direction: row;
@@ -604,7 +604,7 @@ nav ul li a {
   }
 }
 
-/* 🦸‍♂️ Footer Styles */
+
 .footer {
   background-color: #2f2f2f;
   color: #fff;
@@ -642,7 +642,7 @@ nav ul li a {
   color: #ff6600;
 }
 
-/* Social Media Icons */
+
 .footer-social ul {
   list-style: none;
   padding: 0;
@@ -668,14 +668,14 @@ nav ul li a {
   transform: scale(1.1);
 }
 
-/* Copyright Section */
+
 .footer-copyright {
   margin-top: 30px;
   font-size: 14px;
   color: #aaa;
 }
 
-/* Back to Top Button */
+
 .back-to-top {
   margin-top: 30px;
 }
@@ -706,21 +706,21 @@ nav ul li a {
   }
 }
 
-/* Responsive Enhancements */
+
 
 @media (max-width: 768px) {
   /* Responsive Enhancements */
 
   @media (max-width: 768px) {
-    /* Responsive Enhancements */
+  
 
     @media (max-width: 768px) {
-      /* Hide default navigation */
+    
       nav {
         display: none;
       }
 
-      /* Header Navigation - New Navbar */
+      
       .mobile-nav {
         display: flex;
         justify-content: center;
@@ -749,7 +749,7 @@ nav ul li a {
         padding: 5px 10px;
       }
 
-      /* Adjust logo size */
+     
       .logo img {
         width: 40px;
         height: 40px;
@@ -759,7 +759,6 @@ nav ul li a {
         font-size: 1.5rem;
       }
 
-      /* Background Section */
       .background-overlay h1 {
         font-size: 2em;
       }
@@ -774,7 +773,7 @@ nav ul li a {
         font-size: 1em;
       }
 
-      /* Timeline Adjustments */
+    
       .timeline-circles {
         flex-direction: column;
         gap: 20px;
@@ -844,7 +843,7 @@ nav ul li a {
         text-align: center;
       }
 
-      /* Farming, Space, Future Vision Sections */
+     
       .farming-container,
       .space-vision-container,
       .future-vision-container {
@@ -880,12 +879,12 @@ nav ul li a {
   }
 }
 
-/* Hide mobile navbar by default */
+
 .mobile-nav {
   display: none;
 }
 
-/* Show mobile navbar only on small screens */
+
 @media (max-width: 768px) {
   .desktop-nav {
     display: none;
